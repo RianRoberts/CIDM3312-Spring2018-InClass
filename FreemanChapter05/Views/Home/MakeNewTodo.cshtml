@@ -1,0 +1,23 @@
+@model String
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <strong>I am in the template</strong>
+    <p>The todo is: @Model</p>
+    @*
+    @if(Model.count() > 0)
+    {
+        <strong>@Model[0].ToString()</strong>
+    }
+    *@
+    
+</body>
+</html>

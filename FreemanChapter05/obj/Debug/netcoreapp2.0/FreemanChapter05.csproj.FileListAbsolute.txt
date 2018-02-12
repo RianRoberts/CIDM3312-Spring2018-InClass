@@ -1,0 +1,10 @@
+C:\CIDM3312\FreemanChapter05\bin\Debug\netcoreapp2.0\FreemanChapter05.deps.json
+C:\CIDM3312\FreemanChapter05\bin\Debug\netcoreapp2.0\FreemanChapter05.runtimeconfig.json
+C:\CIDM3312\FreemanChapter05\bin\Debug\netcoreapp2.0\FreemanChapter05.runtimeconfig.dev.json
+C:\CIDM3312\FreemanChapter05\bin\Debug\netcoreapp2.0\FreemanChapter05.dll
+C:\CIDM3312\FreemanChapter05\bin\Debug\netcoreapp2.0\FreemanChapter05.pdb
+C:\CIDM3312\FreemanChapter05\obj\Debug\netcoreapp2.0\FreemanChapter05.csproj.CoreCompileInputs.cache
+C:\CIDM3312\FreemanChapter05\obj\Debug\netcoreapp2.0\FreemanChapter05.AssemblyInfoInputs.cache
+C:\CIDM3312\FreemanChapter05\obj\Debug\netcoreapp2.0\FreemanChapter05.AssemblyInfo.cs
+C:\CIDM3312\FreemanChapter05\obj\Debug\netcoreapp2.0\FreemanChapter05.dll
+C:\CIDM3312\FreemanChapter05\obj\Debug\netcoreapp2.0\FreemanChapter05.pdb
