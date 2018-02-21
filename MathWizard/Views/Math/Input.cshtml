@@ -1,0 +1,74 @@
+@model MathWiard.Models.MathOperation;
+<div class="container">
+  <div class="row">
+    <!--<h2>Crop</h2>-->
+    <form class="form-horizontal">
+      <fieldset>
+        <!-- Form Name -->
+        <legend>Math Wizard</legend> 
+        
+        <!-- Text input-->
+        <div class="control-group">
+          <label class="control-label"
+                 for="textinput">Last Name</label>
+          <div class="controls">
+            <input class="input-xlarge"
+                   id="textinput"
+                   name="textinput"
+                   placeholder="lastname"
+                   required=""
+                   type="text">
+          </div>
+        </div>
+        
+        <!-- Select Basic -->
+        <div class="control-group">
+          <label class="control-label"
+                 for="selectbasic">Arithmetic Operation</label>
+          <div class="controls">
+            <select class="input-medium"
+                  id="selectbasic"
+                  name="selectbasic">
+              <option>
+                Add
+              </option>
+              <option>
+                Substract
+              </option>
+              <option>
+                Multiply
+              </option>
+              <option>
+                Divide
+              </option>
+              <option>
+                Modulus
+              </option>
+            </select>
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="control-group">
+          <label class="control-label"
+                 for="textinput">Last Name</label>
+          <div class="controls">
+            <input class="input-xlarge"
+                   id="textinput"
+                   name="textinput"
+                   placeholder="lastname"
+                   required=""
+                   type="text">
+          </div>
+        </div><!-- Button -->
+        <div class="control-group">
+          <div class="controls">
+            <button class="btn btn-default"
+                  id="singlebutton"
+                  name="singlebutton">Insert</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
