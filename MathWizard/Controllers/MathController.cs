@@ -14,11 +14,12 @@ namespace MathWizard.Controllers
         }
 
         [HttpGet]
-        public IActionResult Input(){
+        public IActionResult Wizard(){
             MathOperation operation = new MathOperation();
             return View(operation);
         }
 
+        [HttpPost]
         public IActionResult DoCalculation(MathOperation operation)
         {
 
