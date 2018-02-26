@@ -6,7 +6,8 @@
   <div class="row">
     <!--<h2>Crop</h2>-->
     <form class="form-horizontal" 
-          action="~/Math/DoCalculation"
+          asp-controller="Math"
+          asp-action="DoCalculation"
           method="POST">
       <fieldset>
         <!-- Form Name -->
@@ -73,10 +74,13 @@
         <!-- Button -->
         <div class="control-group">
           <div class="controls">
+            <!--
             <input class="btn btn-default"
                   name="submit"
                   value="submit"
-                  type="submit" />
+                  type="submit" />-->
+            <button class="btn btn-default" 
+                    type="submit">Submit</button>
           </div>
         </div>
       </fieldset>

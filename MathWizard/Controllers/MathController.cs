@@ -15,8 +15,8 @@ namespace MathWizard.Controllers
 
         [HttpGet]
         public IActionResult Wizard(){
-            MathOperation operation = new MathOperation();
-            return View(operation);
+            //MathOperation operation = new MathOperation();
+            return View();
         }
 
         [HttpPost]
@@ -54,12 +54,14 @@ namespace MathWizard.Controllers
                         break;
 
                     default:
-                        operation = new MathOperation();
-                        operation.LeftOperand = 999;
-                        operation.LeftOperand = 999;
-                        operation.Operator = "Add";
-                        operation.Result = 0;
-                        break;
+                        MathOperation op = new MathOperation();
+                        op.LeftOperand = operation.LeftOperand;
+                        op.LeftOperand = operation.RightOperand;
+                        op.Operator = operation.Operator;
+                        op.Result = 0;
+                        return View(op);
+                        //break;
+                        
                     
                 }
             }
