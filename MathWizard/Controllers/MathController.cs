@@ -1,6 +1,8 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 
+using MathWizard.Models;
+
 namespace MathWizard.Controllers
 {
     public class MathController : Controller
@@ -13,7 +15,50 @@ namespace MathWizard.Controllers
 
         [HttpGet]
         public IActionResult Input(){
-            return View();
+            MathOperation operation = new MathOperation();
+            return View(operation);
+        }
+
+        public IActionResult DoCalculation(MathOperation operation)
+        {
+
+            switch(operation.Operator){
+                case "Add":
+                    operation.Result = 
+                    operation.LeftOperand + operation.RightOperand;
+                    break;
+                
+                case "Subtract":
+                    operation.Result = 
+                    operation.LeftOperand - operation.RightOperand;                
+                    break;
+
+                case "Multiply":
+                    operation.Result = 
+                    operation.LeftOperand * operation.RightOperand;                
+                    break;
+                
+                case "Divide":
+                    operation.Result = 
+                    operation.LeftOperand / operation.RightOperand;                
+                    break;
+
+                case "Modulus":
+                    operation.Result = 
+                    operation.LeftOperand % operation.RightOperand;                
+                    break;
+
+                default:
+                    operation = new MathOperation();
+                    operation.LeftOperand = 999;
+                    operation.LeftOperand = 999;
+                    operation.Operator = "Add";
+                    operation.Result = 0;
+                    break;
+                
+            }
+
+            return View(operation);
         }
     }
 }

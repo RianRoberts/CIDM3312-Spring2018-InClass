@@ -1,8 +1,11 @@
-@model MathWiard.Models.MathOperation;
+@model MathOperation
+@{
+  ViewData["Title"] = "Math Input Form";
+}
 <div class="container">
   <div class="row">
     <!--<h2>Crop</h2>-->
-    <form class="form-horizontal">
+    <form class="form-horizontal" asp-action="DoCalculation" method="POST">
       <fieldset>
         <!-- Form Name -->
         <legend>Math Wizard</legend> 
@@ -10,12 +13,13 @@
         <!-- Text input-->
         <div class="control-group">
           <label class="control-label"
-                 for="textinput">Last Name</label>
+                 for="textinput">Left Operand</label>
           <div class="controls">
             <input class="input-xlarge"
+                   asp-for="LeftOperand"
                    id="textinput"
                    name="textinput"
-                   placeholder="lastname"
+                   placeholder="Left Operand"
                    required=""
                    type="text">
           </div>
@@ -28,7 +32,8 @@
           <div class="controls">
             <select class="input-medium"
                   id="selectbasic"
-                  name="selectbasic">
+                  name="selectbasic"
+                  asp-for="Operator">
               <option>
                 Add
               </option>
@@ -51,21 +56,25 @@
         <!-- Text input-->
         <div class="control-group">
           <label class="control-label"
-                 for="textinput">Last Name</label>
+                 for="textinput">Right Operand</label>
           <div class="controls">
             <input class="input-xlarge"
+                   asp-for="RightOperand"
                    id="textinput"
                    name="textinput"
-                   placeholder="lastname"
+                   placeholder="Right Operand"
                    required=""
                    type="text">
           </div>
-        </div><!-- Button -->
+        </div>
+        
+        
+        <!-- Button -->
         <div class="control-group">
           <div class="controls">
-            <button class="btn btn-default"
-                  id="singlebutton"
-                  name="singlebutton">Insert</button>
+            <input class="btn btn-default"
+                  name="submit"
+                  type="submit" />
           </div>
         </div>
       </fieldset>

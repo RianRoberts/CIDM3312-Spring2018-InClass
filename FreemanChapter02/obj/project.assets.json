@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CIDM3312\\FreemanChapter02\\FreemanChapter02.csproj",
+      "projectUniqueName": "c:\\CIDM3312\\CIDM3312-Spring2018-InClass\\FreemanChapter02\\FreemanChapter02.csproj",
       "projectName": "FreemanChapter02",
-      "projectPath": "C:\\CIDM3312\\FreemanChapter02\\FreemanChapter02.csproj",
+      "projectPath": "c:\\CIDM3312\\CIDM3312-Spring2018-InClass\\FreemanChapter02\\FreemanChapter02.csproj",
       "packagesPath": "C:\\Users\\jbabb\\.nuget\\packages\\",
-      "outputPath": "C:\\CIDM3312\\FreemanChapter02\\obj\\",
+      "outputPath": "c:\\CIDM3312\\CIDM3312-Spring2018-InClass\\FreemanChapter02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

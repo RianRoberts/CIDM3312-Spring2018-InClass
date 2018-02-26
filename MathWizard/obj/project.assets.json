@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CIDM3312\\MathWizard\\MathWizard.csproj",
+      "projectUniqueName": "C:\\CIDM3312\\CIDM3312-Spring2018-InClass\\MathWizard\\MathWizard.csproj",
       "projectName": "MathWizard",
-      "projectPath": "C:\\CIDM3312\\MathWizard\\MathWizard.csproj",
+      "projectPath": "C:\\CIDM3312\\CIDM3312-Spring2018-InClass\\MathWizard\\MathWizard.csproj",
       "packagesPath": "C:\\Users\\jbabb\\.nuget\\packages\\",
-      "outputPath": "C:\\CIDM3312\\MathWizard\\obj\\",
+      "outputPath": "C:\\CIDM3312\\CIDM3312-Spring2018-InClass\\MathWizard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

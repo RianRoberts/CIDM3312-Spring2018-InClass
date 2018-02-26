@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CIDM3312\\LayoutExample\\LayoutExample.csproj",
+      "projectUniqueName": "c:\\CIDM3312\\CIDM3312-Spring2018-InClass\\LayoutExample\\LayoutExample.csproj",
       "projectName": "LayoutExample",
-      "projectPath": "C:\\CIDM3312\\LayoutExample\\LayoutExample.csproj",
+      "projectPath": "c:\\CIDM3312\\CIDM3312-Spring2018-InClass\\LayoutExample\\LayoutExample.csproj",
       "packagesPath": "C:\\Users\\jbabb\\.nuget\\packages\\",
-      "outputPath": "C:\\CIDM3312\\LayoutExample\\obj\\",
+      "outputPath": "c:\\CIDM3312\\CIDM3312-Spring2018-InClass\\LayoutExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

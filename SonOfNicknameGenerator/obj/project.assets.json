@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CIDM3312\\SonOfNicknameGenerator\\SonOfNicknameGenerator.csproj",
+      "projectUniqueName": "c:\\CIDM3312\\CIDM3312-Spring2018-InClass\\SonOfNicknameGenerator\\SonOfNicknameGenerator.csproj",
       "projectName": "SonOfNicknameGenerator",
-      "projectPath": "C:\\CIDM3312\\SonOfNicknameGenerator\\SonOfNicknameGenerator.csproj",
+      "projectPath": "c:\\CIDM3312\\CIDM3312-Spring2018-InClass\\SonOfNicknameGenerator\\SonOfNicknameGenerator.csproj",
       "packagesPath": "C:\\Users\\jbabb\\.nuget\\packages\\",
-      "outputPath": "C:\\CIDM3312\\SonOfNicknameGenerator\\obj\\",
+      "outputPath": "c:\\CIDM3312\\CIDM3312-Spring2018-InClass\\SonOfNicknameGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
