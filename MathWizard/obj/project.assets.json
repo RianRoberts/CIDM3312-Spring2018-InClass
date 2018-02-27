@@ -7257,10 +7257,10 @@
       "path": "microsoft.netcore.platforms/2.0.0",
       "files": [
         "LICENSE.TXT",
+        "Microsoft.NETCore.Platforms.2.0.0.nupkg.sha512",
+        "Microsoft.NETCore.Platforms.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -12535,24 +12535,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jbabb\\.nuget\\packages\\": {},
+    "C:\\Users\\jeff\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CIDM3312\\CIDM3312-Spring2018-InClass\\MathWizard\\MathWizard.csproj",
+      "projectUniqueName": "D:\\jeff\\Dropbox\\CIS\\CIDM\\CIDM3312\\Spring 2018\\CIDM3312-Spring2018-InClass\\MathWizard\\MathWizard.csproj",
       "projectName": "MathWizard",
-      "projectPath": "C:\\CIDM3312\\CIDM3312-Spring2018-InClass\\MathWizard\\MathWizard.csproj",
-      "packagesPath": "C:\\Users\\jbabb\\.nuget\\packages\\",
-      "outputPath": "C:\\CIDM3312\\CIDM3312-Spring2018-InClass\\MathWizard\\obj\\",
+      "projectPath": "D:\\jeff\\Dropbox\\CIS\\CIDM\\CIDM3312\\Spring 2018\\CIDM3312-Spring2018-InClass\\MathWizard\\MathWizard.csproj",
+      "packagesPath": "C:\\Users\\jeff\\.nuget\\packages\\",
+      "outputPath": "D:\\jeff\\Dropbox\\CIS\\CIDM\\CIDM3312\\Spring 2018\\CIDM3312-Spring2018-InClass\\MathWizard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jbabb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\jeff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

@@ -6,12 +6,14 @@
   <div class="row">
     <!--<h2>Crop</h2>-->
     <form class="form-horizontal" 
-          asp-controller="Math"
           asp-action="DoCalculation"
-          method="POST">
+          method="POST"
+          role="form">
       <fieldset>
         <!-- Form Name -->
         <legend>Math Wizard</legend> 
+
+        <input type="hidden" asp-for="Result" value="0">
         
         <!-- Text input-->
         <div class="control-group">
@@ -24,7 +26,7 @@
                    name="textinput"
                    placeholder="Left Operand"
                    required=""
-                   type="text">
+                   type="number">
           </div>
         </div>
         
@@ -67,18 +69,13 @@
                    name="textinput"
                    placeholder="Right Operand"
                    required=""
-                   type="text">
+                   type="number">
           </div>
         </div>
         
         <!-- Button -->
         <div class="control-group">
           <div class="controls">
-            <!--
-            <input class="btn btn-default"
-                  name="submit"
-                  value="submit"
-                  type="submit" />-->
             <button class="btn btn-default" 
                     type="submit">Submit</button>
           </div>
