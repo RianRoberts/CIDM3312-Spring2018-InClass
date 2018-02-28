@@ -1,0 +1,15 @@
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\MathWizardTestsInClass.deps.json
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\MathWizardTestsInClass.runtimeconfig.json
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\MathWizardTestsInClass.runtimeconfig.dev.json
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\MathWizardTestsInClass.dll
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\MathWizardTestsInClass.pdb
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\MathWizard.dll
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\bin\Debug\netcoreapp2.0\MathWizard.pdb
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\obj\Debug\netcoreapp2.0\MathWizardTestsInClass.csproj.CoreCompileInputs.cache
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\obj\Debug\netcoreapp2.0\MathWizardTestsInClass.AssemblyInfoInputs.cache
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\obj\Debug\netcoreapp2.0\MathWizardTestsInClass.AssemblyInfo.cs
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\obj\Debug\netcoreapp2.0\MathWizardTestsInClass.dll
+C:\CIDM3312\CIDM3312-Spring2018-InClass\MathProgram\MathWizardTestsInClass\obj\Debug\netcoreapp2.0\MathWizardTestsInClass.pdb

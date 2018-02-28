@@ -26,7 +26,7 @@ namespace MathWizardTests
             MathOp model = (MathOp)vr.Model;
 
             //Assert
-            Assert.Equal(60, model.Result);
+            Assert.Equal(59, model.Result);
 
         }
 
